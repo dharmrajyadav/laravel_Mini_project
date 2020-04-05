@@ -35,7 +35,7 @@ Route::get('/delete/{id}/userlist','UserDetails@delete')->name('userdata.delete'
 
 
 
-//Route::post('/create','EmployeeController@store')->name('employees.store');
+Route::post('/create','EmployeeController@store')->name('employees.store');
 
 
 
