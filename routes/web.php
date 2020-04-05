@@ -31,7 +31,7 @@ Route::post('/create','UserDetails@store')->name('abc.store');
 
 //Route::get('/delete','UserDetails@delete')->name('userdata.delete');
 Route::get('/delete/{id}/userlist','UserDetails@delete')->name('userdata.delete');
-//Route::get('/create','UserDetails@store');
+Route::get('/create','UserDetails@store');
 
 
 
